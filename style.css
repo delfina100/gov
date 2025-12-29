@@ -236,7 +236,7 @@ body {
 /* Botões inferiores */
 .overlay-buttons {
   position: absolute;
- bottom: 5px;
+ bottom: 1px;
   left: 15px;
   right: 15px;
   display: flex;
@@ -269,6 +269,7 @@ body {
   font-size: 24px;
   background: rgb(3, 146, 54);
 }
+
 
 
 
