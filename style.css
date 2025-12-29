@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #222;
+}
+
+.headgov {
+  width: 70%;
+  height: auto;
+}
+
+/* Top bar */
+.top-bar {
+  background: #0b3c74;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 14px;
+}
+
+.top-bar h1 {
+  flex: 1;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.back {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.card-header {
+  background: white;
+  padding: 16px;
+  align-items: center;
+  right: -70px;
+}
+
+/* Button */
+.add-btn {
+  width: 60%;
+  background: #2e7d32;
+  align-items: center;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto 100px;
+  bottom: 100%;
+}
+
+
+/* Bottom navigation */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+/* Index 2 */
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #ffffff;
+}
+
+/* Header */
+.top {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+}
+
+.govimg img {
+  height: 24px;
+}
+
+.close {
+  font-size: 20px;
+}
+
+/* Tag */
+.tag {
+  background: #f2c200;
+  font-size: 12px;
+  color: #067e04;
+  padding: 6px 10px;
+  width: fit-content;
+  margin: 10px auto;
+  border-radius: 1px;
+}
+
+/* Carrossel */
+.carousel {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+
+.slide {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Imagem do documento */
+.doc-img {
+  width: 100%;
+  max-width: 340px;
+  border-radius: 12px;
+}
+
+/* Dots */
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background: #646568;
+  border-radius: 50%;
+  margin: 0 4px;
+}
+
+.dot.active {
+  background: #242f56;
+}
+
+/* Bottom Nav */
+
+  
+/* Viewer fullscreen */
+.viewer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Botão X */
+.close-viewer {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #ffffff;
+  font-size: 26px;
+  cursor: pointer;
+}
+.close {
+  color: #100051;
+  
+}
+
+/* Conteúdo */
+.viewer-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Imagem em modo paisagem */
+.viewer-content img {
+  max-width: 600px;
+  max-height: 600px;
+  border-radius: 1px;
+}
+
+.menu img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Setas laterais */
+.arrow {
+  position: absolute;
+
+  transform: translateY(-50%);
+  color: rgb(13, 13, 104);
+  width: 36px;
+  height: 36px;
+  font-size: 22px;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 100%;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.arrow.left {
+  left: 70px;
+}
+
+.arrow.right {
+  right: 70px;
+}
+
+/* Botões inferiores */
+.overlay-buttons {
+  position: absolute;
+  bottom: 150px;
+  left: 15px;
+  right: 15px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+
+}
+
+.icon-btn {
+  background: #efedee;
+  border: none;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+  font-size: 20px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.icon-btn img {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+  align-items: center;
+  pointer-events: none;
+}
+
+.icon-btn.menu {
+  font-size: 24px;
+  background: rgb(3, 146, 54);
+}

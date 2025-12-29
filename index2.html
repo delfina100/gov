@@ -1,0 +1,78 @@
+
+  <!DOCTYPE html>
+  <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <title>Documento</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+  <header class="top">
+    <div class="govimg">
+    <img src="Gov.br_logo.svg.png" alt="">
+    </div>
+    <span class="close" onclick="window.location.href='index.html'">✕</span>
+  </header>
+
+  <div class="tag">DOCUMENTO DE IDENTIFICAÇÃO</div>
+
+  <!-- Carrossel -->
+  <div class="carousel">
+    <div class="carousel-track">
+
+      <div class="slide">
+        <img src="doc1.jpeg" class="doc-img clickable">
+      </div>
+
+      <div class="slide">
+        <img src="doc2.jpeg" class="doc-img">
+      </div>
+
+      <div class="slide">
+        <img src="doc3.jpeg" class="doc-img">
+      </div>
+
+       <div class="slide">
+        <img src="doc4.jpeg" class="doc-img">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Viewer fullscreen -->
+  <div class="viewer" id="viewer">
+    <span class="close-viewer" id="closeViewer">✕</span>
+
+    <div class="viewer-content">
+      <img id="viewerImg" src="doc1.jpeg">
+    </div>
+  </div>
+
+  <div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+  <!-- Botões laterais -->
+  <button class="arrow left" id="prevBtn">‹</button>
+  <button class="arrow right" id="nextBtn">›</button>
+
+  <!-- Botões inferiores -->
+  <div class="overlay-buttons">
+    <button class="icon-btn" id="zoomBtn">
+      <img src="lupa.jpeg" alt="Zoom">
+    </button>
+    <button class="icon-btn menu" id="menuBtn">⋮</button>
+  </div>
+
+  <nav class="menu">
+   <img src="menugov.jpg" alt="">
+  </nav>
+
+  <script src="script.js"></script>
+  </body>
+  </html>
